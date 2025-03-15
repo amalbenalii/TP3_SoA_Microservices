@@ -25,11 +25,13 @@
 ```bash
 git clone <URL_DU_DEPOT>
 cd TP3_SoA_Microservices
+
 ```
 
 ###  3. Installer les dépendances
 ```bash
 npm install
+npm init -y
 npm install express @apollo/server body-parser @graphql-tools/schema graphql
 
 ```
